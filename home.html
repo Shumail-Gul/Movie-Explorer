@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <div id="root">
+      <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a href="#" class="navbar-brand text-light"> Movie Explorer </a>
+
+          <!-- Links -->
+          <div class="collapse navbar-collapse" id="navbarToggler">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a href="#" class="nav-link active">Login</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link active">WatchList</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link active">Favorite</a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Movies always visible -->
+          <div class="dropdown me-2">
+            <button
+              class="btn btn-secondary dropdown-toggle"
+              type="button"
+              data-bs-toggle="dropdown"
+            >
+              Movies
+            </button>
+
+            <ul class="dropdown-menu">
+              <li><a href="#" class="dropdown-item">Popular</a></li>
+              <li><a href="#" class="dropdown-item">Trending</a></li>
+              <li><a href="#" class="dropdown-item">Latest</a></li>
+            </ul>
+          </div>
+
+          <!-- Toggle -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarToggler"
+            aria-controls="navbarToggler"
+            aria-expanded="false"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </nav>
+      <!-- Header -->
+      <header class="header py-7 vh-100 mx-3">
+        <div class="container">
+          <form class="d-flex mt-3 mx-auto w-75 align-center" role="search">
+            <input
+              type="text"
+              class="form-control rounded-5 px-4 rounded-start-pill outline-dark border-dark"
+              placeholder="Search..."
+            />
+            <button
+              type="submit"
+              class="btn btn-primary rounded-5 rounded-end-pill text-light px-4"
+            >
+              Search
+            </button>
+          </form>
+        </div>
+      </header>
+    </div>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
