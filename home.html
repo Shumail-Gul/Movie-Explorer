@@ -11,11 +11,21 @@
   </head>
   <body>
     <div id="root">
-      <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+      <header class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
         <div class="container-fluid">
-          <a href="#" class="navbar-brand text-light"> Movie Explorer </a>
+          <h2><a href="#" class="navbar-brand text-light "> Movie Explorer </a></h2>
 
           <!-- Links -->
+          <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarToggler"
+          aria-controls="navbarToggler"
+          aria-expanded="false"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
           <div class="collapse navbar-collapse" id="navbarToggler">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
@@ -31,53 +41,87 @@
           </div>
 
           <!-- Movies always visible -->
-          <div class="dropdown me-2">
-            <button
-              class="btn btn-secondary dropdown-toggle"
-              type="button"
-              data-bs-toggle="dropdown"
-            >
-              Movies
-            </button>
-
-            <ul class="dropdown-menu">
-              <li><a href="#" class="dropdown-item">Popular</a></li>
-              <li><a href="#" class="dropdown-item">Trending</a></li>
-              <li><a href="#" class="dropdown-item">Latest</a></li>
-            </ul>
-          </div>
-
+          
           <!-- Toggle -->
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarToggler"
-            aria-controls="navbarToggler"
-            aria-expanded="false"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        </div>
-      </nav>
-      <!-- Header -->
-      <header class="header py-7 vh-100 mx-3">
-        <div class="container">
-          <form class="d-flex mt-3 mx-auto w-75 align-center" role="search">
-            <input
-              type="text"
-              class="form-control rounded-5 px-4 rounded-start-pill outline-dark border-dark"
-              placeholder="Search..."
-            />
-            <button
-              type="submit"
-              class="btn btn-primary rounded-5 rounded-end-pill text-light px-4"
-            >
-              Search
-            </button>
-          </form>
+          
         </div>
       </header>
+      <!-- Search Section -->
+      <section class="py-7 y-4">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-8   ">
+              <form class=" d-flex" role="search">
+                <input type="text" class="form-control rounded-5 px-4 rounded-start-pill outline-dark border-dark"
+                  placeholder="Search..." />
+                <button type="submit" class="btn btn-primary rounded-5 rounded-end-pill text-light px-4">
+                  Search
+                </button>
+                </form>
+
+                </div>
+                <div class="col-lg-4 ">
+                  <div class="d-flex py-3 ">
+                    <div class="btn-group w-100">
+                      <a class="btn btn-secondary active rounded-start-pill px-5" type="button">▪️Latest</a>
+                      <a class="btn btn-secondary  px-5 " type="button">Popular</a>
+                      <a class="btn btn-secondary rounded-end-pill px-5 " type="button">Trending</a>
+                    </div>
+                    </div>
+            </div>
+          </div>            
+        </div>
+      </section>
+
+      <!-- cards -->
+       <section>
+        <div class="container ">
+          <div class="row row-cols-1 row-cols-md-3
+          row-cols-sm-2 g-4 ">
+            <div class="col">
+              
+              <div class="card ">
+                <img src="" alt="" class="card-img-top">
+                <div class="card-body">
+                  <div class="card-title">Movie Name</div>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione quidem blanditiis pariatur sint quod eius dolore totam, voluptates repellendus maxime architecto, nobis officiis hic saepe alias veniam unde iste perferendis.</p>
+                  <a href="" class="btn btn-secondary">More...</a>
+                </div>
+              </div>
+              </div>
+
+              <!-- 2 -->
+               <div class="col">
+              <div class="card">
+                <img src="" alt="" class="card-image-top">
+                <div class="card-body">
+                  <div class="card-title">Movie Name</div>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione quidem blanditiis pariatur sint quod eius dolore totam, voluptates repellendus maxime architecto, nobis officiis hic saepe alias veniam unde iste perferendis.</p>
+                  <a href="" class="btn btn-secondary">More...</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- 3 -->
+            <div class="col">
+              <div class="card">
+                <img src="" alt="" class="card-image-top">
+                <div class="card-body">
+                  <div class="card-title">Movie Name</div>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione quidem blanditiis pariatur sint quod eius dolore totam, voluptates repellendus maxime architecto, nobis officiis hic saepe alias veniam unde iste perferendis.</p>
+                  <a href="" class="btn btn-secondary">More...</a>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+          </div>
+
+        
+       </section>
+
+
+      
     </div>
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
