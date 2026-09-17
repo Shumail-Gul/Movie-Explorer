@@ -1,0 +1,46 @@
+/* html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+} */
+
+body {
+  overflow-x: hidden;
+  background-color: #021127;
+}
+
+.card-text {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden; }
+
+    .card {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .card:hover{
+        transform: translateY(-8px);
+       
+    }
+
+    .btn-group .btn:focus,
+.btn-group .btn:active,
+.btn-group .btn:focus:active {
+    border-color: transparent !important;
+}
+
+img.rounded-3.shadow-lg {
+    aspect-ratio: 2 / 3;
+  }
+
+  .card-img-top {
+    width: 100%;       
+    height: auto;  
+    aspect-ratio: 2/3;  
+  }
+  
+  
+  

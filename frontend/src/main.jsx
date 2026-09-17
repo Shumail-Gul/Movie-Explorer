@@ -1,10 +1,10 @@
-import "bootstrap/dist/css/bootstrap.min.css";
-import { StrictMode } from "react";
+import "bootstrap-icons/font/bootstrap-icons.css"
+import "./styles/main.scss"
+import "bootstrap/js/dist/collapse.js"
+
 import { createRoot } from "react-dom/client";
 import App from "./App.jsx";
-
+import "./css/style.css"
 createRoot(document.getElementById("root")).render(
-  <StrictMode>
     <App />
-  </StrictMode>,
 );
