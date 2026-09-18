@@ -8,6 +8,8 @@ https://docs.djangoproject.com/en/6.1/topics/settings/
 
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/6.1/ref/settings/
+
+
 """
 import os
 
@@ -25,7 +27,11 @@ TMDB_ACCESS_TOKEN = os.getenv("TMDB_ACCESS_TOKEN")
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = os.environ.get("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = os.environ.get("DEBUG")
+<<<<<<< HEAD
+# DEBUG = os.environ.get("DEBUG")
+
+# DEBUG = os.environ.get("DEBUG", "False") == True
+# >>>>>>> dcb8a9b (allow vercel frontend origin)
 
 ALLOWED_HOSTS = ["shumailgul.pythonanywhere.com"]
 
@@ -135,8 +141,12 @@ MAILERS = {
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
     "http://localhost:4173",
+<<<<<<< HEAD
     "https://movie-explorer-z3pu-shumail-gul-s-projects.vercel.app"
 ]
+=======
+"movie-explorer-z3pu-alpha.vercel.app"]
+>>>>>>> dcb8a9b (allow vercel frontend origin)
 
 CORS_ALLOW_HEADERS = [
     "authorization",
