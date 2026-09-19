@@ -122,7 +122,7 @@ const index = 0
   return (
 	
 		<div className="col">
-			<div className="card bg-dark text-light p-4 shadow-lg h-100">
+			<div className="card bg-dark text-light  shadow-lg h-80">
 				<img
 					src={`https://image.tmdb.org/t/p/w342${movie.poster_path}
 					`}
