@@ -134,7 +134,8 @@ MAILERS = {
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
-    "http://localhost:4173"
+    "http://localhost:4173",
+    "https://movie-explorer-z3pu-shumail-gul-s-projects.vercel.app"
 ]
 
 CORS_ALLOW_HEADERS = [
