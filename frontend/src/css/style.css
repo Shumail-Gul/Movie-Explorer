@@ -39,7 +39,7 @@ img.rounded-3.shadow-lg {
   .card-img-top {
     width: 100%;       
     height: auto;  
-    aspect-ratio: 2/3;  
+    aspect-ratio: 2/2.5;  
   }
   
   
