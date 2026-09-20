@@ -153,7 +153,7 @@ const index = 0
 						<i className="bi bi-calendar3 fs-6 text-primary p-1 "></i>Release
 						Date: {movie.release_date || "N/A"}
 					</p>
-					<div className="d-flex justify-content-between align-items-center mt-auto pt-2">
+					<div className="d-flex justify-content-between align-items-center mt-auto ">
 						<Link
 							to={`/details/${movie.id || movie.movie_id}`}
 							className="btn  btn-danger fw-bold px-4 text-white" aria-label="button for details"
