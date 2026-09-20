@@ -134,7 +134,7 @@ const index = 0
 					// width="342"
 					// height="513"
 				/>
-				<div className="card-body d-flex flex-column p-0">
+				<div className="card-body d-flex flex-column p-2">
 					<h5 className="card-title text-danger fw-bold">
 						{movie.title || movie.movie_title}
 					</h5>
