@@ -20,7 +20,7 @@ function Toggle({ isLoggedIn }) {
 
 			{/* Nav Menu Items */}
 			<div className="collapse navbar-collapse" id="navbarToggler">
-				<ul className="navbar-nav me-auto mb-2 mb-lg-0 gap-lg-2 pt-3 pt-lg-0">
+				<ul className="navbar-nav ms-auto mb-2 mb-lg-0 gap-lg-2 pt-3 pt-lg-0">
 					{!isLoggedIn && (
 						<li className="nav-item">
 							<Link
