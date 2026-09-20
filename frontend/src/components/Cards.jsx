@@ -139,7 +139,7 @@ const index = 0
 						{movie.title || movie.movie_title}
 					</h5>
 					<p className="card-text">{movie.overview}</p>
-					<p className="fw-semibold">
+					<p className="fw-normal">
 						<i className="bi bi-star-fill fs-6 text-warning p-1 " />
 						Rating:{" "}
 						{movie.vote_average !== undefined
@@ -149,7 +149,7 @@ const index = 0
 								: "N/A"}
 					</p>
 
-					<p className="fw-semibold">
+					<p className="fw-normal">
 						<i className="bi bi-calendar3 fs-6 text-primary p-1 "></i>Release
 						Date: {movie.release_date || "N/A"}
 					</p>
