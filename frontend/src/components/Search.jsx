@@ -41,7 +41,7 @@ onCategoryChange(category)
 		
 	}, [query, onSearch]);
 	return (
-		<div className="container my-4">
+		<div className="container my-2">
 			<div className="row align-items-center">
 				<div className="col-lg-7   ">
 					<form
@@ -66,7 +66,7 @@ onCategoryChange(category)
 
 					{/* Tabs */}
 				</div>
-				<div className="col-lg-5  my-4">
+				<div className="col-lg-5  my-2">
 					<div className="btn-group  w-100">
 						<button
 							className={`btn btn-sm shadow btn-outline-primary fw-semibold  text-white rounded-start-pill p-2 ${activeCategory === "top_rated" ? "active " : ""}`}
