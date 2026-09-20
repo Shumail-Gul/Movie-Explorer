@@ -41,9 +41,9 @@ onCategoryChange(category)
 		
 	}, [query, onSearch]);
 	return (
-		<div className="container mt-2">
+		<div className="container ">
 			<div className="row align-items-center">
-				<div className="col-lg-7   ">
+				<div className="col-lg-7  mt-2 ">
 					<form
 						className=" d-flex "
 						role="search"
@@ -66,7 +66,7 @@ onCategoryChange(category)
 
 					{/* Tabs */}
 				</div>
-				<div className="col-lg-5 ">
+				<div className="col-lg-5 mt-2">
 					<div className="btn-group  w-100">
 						<button
 							className={`btn btn-sm shadow btn-outline-primary fw-semibold  text-white rounded-start-pill p-2 ${activeCategory === "top_rated" ? "active " : ""}`}
