@@ -42,11 +42,11 @@ function Header() {
 
 	return (
 		<header className="sticky-top bg-secondary border-bottom border-secondary border-opacity-25 shadow-sm ">
-			<nav className="navbar navbar-expand-lg navbar-dark container ">
+			<nav className="navbar navbar-expand-lg navbar-dark container mx-2">
 				{/* Brand Logo */}
 				<Link
 					to="/"
-					className="navbar-brand d-flex align-items-center gap-2 fw-bold fs-4 text-white me-4"
+					className="navbar-brand d-flex align-items-center gap-2 fw-bold fs-4 text-white ms-3"
 				>
 					<i className="bi bi-film text-primary"></i>
 					<span>
@@ -55,7 +55,7 @@ function Header() {
 				</Link>
 
 				{/* Action Group: User Status / Auth CTA + Mobile Toggler */}
-				<div className="d-flex align-items-center gap-3 order-lg-last ms-auto ms-lg-3">
+				<div className="d-flex align-items-center gap-3 order-lg-last ms-auto ms-lg-4">
 					{accessToken ? (
 						<div className="d-flex align-items-center gap-2">
 							<div className="d-flex align-items-center gap-2 text-white bg-secondary bg-opacity-25 px-3 py-1 rounded-pill border border-secondary border-opacity-50">
