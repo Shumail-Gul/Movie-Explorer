@@ -113,7 +113,7 @@ function Home() {
 						<p className="text-muted">Try searching for another movie.</p>
 					</div>
 				) : (
-						<div className="row row-cols-1 row-cols-md-2 row-cols-sm-2 row-cols-lg-3 row-cols-xl-5 g-3 my-2">
+						<div className="row row-cols-1 row-cols-md-2 row-cols-sm-2 row-cols-lg-3 row-cols-xl-4 g-3 my-2">
 							{movies.map((movie, index) => (
 								<Cards
 									key={movie.id}
