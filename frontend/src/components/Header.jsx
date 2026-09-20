@@ -42,11 +42,11 @@ function Header() {
 
 	return (
 		<header className="sticky-top bg-secondary border-bottom border-secondary border-opacity-25 shadow-sm ">
-			<nav className="navbar navbar-expand-lg navbar-dark container ms-1">
+			<nav className="navbar navbar-expand-lg navbar-dark container ">
 				{/* Brand Logo */}
 				<Link
 					to="/"
-					className="navbar-brand d-flex align-items-center gap-2 fw-bold fs-4 text-white ms-3"
+					className="navbar-brand d-flex align-items-center gap-2 fw-bold fs-4 text-white ms-2 p-0"
 				>
 					<i className="bi bi-film text-primary"></i>
 					<span>
@@ -73,7 +73,7 @@ function Header() {
 						
 						<Link
 							to="/signup"
-							className="btn shadow btn-danger text-white btn-md px-4 py-1 text-uppercase fw-bold rounded-pill text-nowrap " aria-label="button for sign-up"
+							className="btn shadow btn-danger text-white btn-md px-3 py-1 text-uppercase fw-bold rounded-pill text-nowrap " aria-label="button for sign-up"
 						>
 							Sign Up
 						</Link>
