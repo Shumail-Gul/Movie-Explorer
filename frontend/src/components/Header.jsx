@@ -58,7 +58,7 @@ function Header() {
 				<div className="d-flex align-items-center gap-3 order-lg-last ms-auto ms-lg-4">
 					{accessToken ? (
 						<div className="d-flex align-items-center gap-2">
-							<div className="d-flex align-items-center gap-2 text-white bg-secondary bg-opacity-25 px-3 py-1 rounded-pill border border-secondary border-opacity-50">
+							<div className="d-flex align-items-center gap-2 text-white bg-secondary bg-opacity-25 p-1 rounded-pill border border-secondary border-opacity-50">
 								<i className="bi bi-person-check text-primary"></i>
 								<span className="fw-semibold small">{user?.username || "User"}</span>
 							</div>
