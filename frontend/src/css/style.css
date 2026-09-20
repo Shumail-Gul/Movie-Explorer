@@ -33,13 +33,13 @@ body {
 }
 
 img.rounded-3.shadow-lg {
-    aspect-ratio: 2 / 2.5;
+    aspect-ratio: 2 / 3;
   }
 
   .card-img-top {
     width: 100%;       
     height: auto;  
-    aspect-ratio: 2/2.5;  
+    aspect-ratio: 2/2.3;  
   }
   
   
