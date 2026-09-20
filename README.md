@@ -6,9 +6,12 @@ watchlist to their account.
 
 **[Live Demo →](https://movie-explorer-tau-gules.vercel.app/)**
 
-![screenshot](<img width="1481" height="757" alt="Screenshot 2026-09-20 115916" src="https://github.com/user-attachments/assets/68ca1788-4042-408f-951d-41d1ee1f6b34" />
-)
-<img width="1481" height="757" alt="Screenshot 2026-09-20 115916" src="https://github.com/user-attachments/assets/24c28e9a-bf04-48b6-91f9-20b965a0d673" />
+## 
+
+
+
+
+
 
 ## Features
 - Search movies with debounced live results
@@ -28,7 +31,7 @@ watchlist to their account.
 
 ### Frontend
 \`\`\`
-git clone https://github.com/YOUR_USERNAME/movie-explorer.git
+git clone https://github.com/Shumail-Gul/movie-explorer.git
 cd movie-explorer
 npm install
 cp .env.example .env   # set VITE_API_URL
