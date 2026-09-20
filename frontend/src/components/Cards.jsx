@@ -122,7 +122,7 @@ const index = 0
   return (
 	
 		<div className="col">
-			<div className="card bg-dark text-light p-4 shadow-lg h-100">
+			<div className="card bg-dark text-light p-2 shadow-lg h-100">
 				<img
 					src={`https://image.tmdb.org/t/p/w342${movie.poster_path}
 					`}
@@ -153,7 +153,7 @@ const index = 0
 						<i className="bi bi-calendar3 fs-4 text-primary p-3 "></i>Release
 						Date: {movie.release_date || "N/A"}
 					</p>
-					<div className="d-flex justify-content-between align-items-center mt-auto pt-4">
+					<div className="d-flex justify-content-between align-items-center mt-auto pt-2">
 						<Link
 							to={`/details/${movie.id || movie.movie_id}`}
 							className="btn  btn-danger fw-bold px-4 text-white" aria-label="button for details"
