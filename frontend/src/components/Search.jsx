@@ -41,7 +41,7 @@ onCategoryChange(category)
 		
 	}, [query, onSearch]);
 	return (
-		<div className="container ">
+		<div className="container mt-2">
 			<div className="row align-items-center">
 				<div className="col-lg-7   ">
 					<form
