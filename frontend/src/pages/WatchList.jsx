@@ -71,7 +71,7 @@ function WatchList() {
 			)}
 
 			{!loading && !error && movies.length > 0 && (
-				<div className="row row-cols-1 row-cols-md-2 row-cols-sm-2 row-cols-lg-3 row-cols-xl-4 g-4">
+				<div className="row row-cols-1 row-cols-md-2 row-cols-sm-2 row-cols-lg-3 row-cols-xl-4 g-4 mx-3">
 					{movies.map((movie) => (
 						<Cards
 							key={movie.id}
