@@ -42,7 +42,7 @@ function Header() {
 
 	return (
 		<header className="sticky-top bg-secondary border-bottom border-secondary border-opacity-25 shadow-sm ">
-			<nav className="navbar navbar-expand-lg navbar-dark container py-2">
+			<nav className="navbar navbar-expand-lg navbar-dark container ">
 				{/* Brand Logo */}
 				<Link
 					to="/"
@@ -73,7 +73,7 @@ function Header() {
 						
 						<Link
 							to="/signup"
-							className="btn shadow btn-outline-danger text-white btn-md px-4 py-1 text-uppercase fw-bold rounded-pill text-nowrap " aria-label="button for sign-up"
+							className="btn shadow btn-danger text-white btn-md px-4 py-1 text-uppercase fw-bold rounded-pill text-nowrap " aria-label="button for sign-up"
 						>
 							Sign Up
 						</Link>
