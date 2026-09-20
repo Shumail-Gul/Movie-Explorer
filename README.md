@@ -1,12 +1,24 @@
 # 🎬 Movie Explorer
 
+
+
 A full-stack movie discovery app where users can search movies, browse by
 category (top rated / popular / trending), and save favorites and a
 watchlist to their account.
 
+
 **[Live Demo →](https://movie-explorer-tau-gules.vercel.app/)**
 
-## 
+
+
+
+
+
+
+
+
+
+
 
 
 
