@@ -6,7 +6,8 @@ watchlist to their account.
 
 **[Live Demo →](https://movie-explorer-tau-gules.vercel.app/)**
 
-![screenshot](./screenshot.png)
+![screenshot](<img width="1481" height="757" alt="Screenshot 2026-09-20 115916" src="https://github.com/user-attachments/assets/68ca1788-4042-408f-951d-41d1ee1f6b34" />
+)
 
 ## Features
 - Search movies with debounced live results
