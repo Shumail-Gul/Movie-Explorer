@@ -42,7 +42,7 @@ function Header() {
 
 	return (
 		<header className="sticky-top bg-secondary border-bottom border-secondary border-opacity-25 shadow-sm ">
-			<nav className="navbar navbar-expand-lg navbar-dark container mx-2">
+			<nav className="navbar navbar-expand-lg navbar-dark container ms-1">
 				{/* Brand Logo */}
 				<Link
 					to="/"
