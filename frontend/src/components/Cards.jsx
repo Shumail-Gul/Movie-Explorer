@@ -140,7 +140,7 @@ const index = 0
 					</h5>
 					<p className="card-text">{movie.overview}</p>
 					<p className="fw-semibold">
-						<i className="bi bi-star-fill fs-4 text-warning p-1 " />
+						<i className="bi bi-star-fill fs-2 text-warning p-1 " />
 						Rating:{" "}
 						{movie.vote_average !== undefined
 							? movie.vote_average.toFixed(1)
@@ -150,7 +150,7 @@ const index = 0
 					</p>
 
 					<p className="fw-semibold">
-						<i className="bi bi-calendar3 fs-4 text-primary p-1 "></i>Release
+						<i className="bi bi-calendar3 fs-2 text-primary p-1 "></i>Release
 						Date: {movie.release_date || "N/A"}
 					</p>
 					<div className="d-flex justify-content-between align-items-center mt-auto pt-2">
