@@ -9,7 +9,9 @@ watchlist to their account.
 
 **[Live Demo →](https://movie-explorer-tau-gules.vercel.app/)**
 
+<img width="1513" height="755" alt="Screenshot 2026-09-20 100706" src="https://github.com/user-attachments/assets/b146ce02-7d44-435a-afd1-8f9804dd7442" />
 
+<img width="1530" height="763" alt="Screenshot 2026-09-20 115258" src="https://github.com/user-attachments/assets/9a0a7b6d-7573-45cd-b3b5-b961e322c2e3" />
 
 
 
